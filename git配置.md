@@ -1,30 +1,30 @@
-###1. git 安装
+### 1. git 安装
 ```
 sudo apt-get install git
 ```
 
-###2. git 全局配置
+### 2. git 全局配置
 ```
 git config --global user.name "月落追魂"
 git config --global user.email "350810375@qq.com"
 ```
 
-###3 Linux上生成SSH key
+### 3 Linux上生成SSH key
 ```
 ssh-keygen -t rsa -C "350810375@qq.com"
 ```
 
-###4 打开SSH公钥
+### 4 打开SSH公钥
 ```
 cat /home/zjw/.ssh/id_rsa.pub 
 ```
 
-###5 公钥添加测试
+### 5 公钥添加测试
 ```
 ssh -T git@git.oschina.net
 ```
 
-###6常用命令
+### 6常用命令
 
 1. **git add**
 
