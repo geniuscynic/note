@@ -22,5 +22,9 @@ docker rm 容易id
 docker ps #查看容器
 docker ps -a #已退出的镜像
 docker images #查看镜像
+```
 
+5. 重启后容器自动重启
+```
+docker container update --restart=always c3872841c60b
 ```
