@@ -28,3 +28,8 @@ docker images #查看镜像
 ```
 docker container update --restart=always c3872841c60b
 ```
+
+6. redis
+```
+docker run -itd --name redis-test -p 6379:6379 redis
+```
