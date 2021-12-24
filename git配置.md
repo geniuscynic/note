@@ -65,3 +65,9 @@ refs/for 的意义在于我们提交代码到服务器之后是需要经过code 
 
 4. **git clone**
 - 克隆下载
+
+5. **设置代理**
+```
+git config --global http.proxy 'http://127.0.0.1:8848' #设置代理
+git config --global --unset http.proxy #取消代理
+```
